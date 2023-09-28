@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style_projects.css" />
+  <script src="https://kit.fontawesome.com/7a5eb4f552.js" crossorigin="anonymous"></script>
+  <title>Projects</title>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <header>
+    <img class="titleicon" src="./image/title.png" alt="">
+    <p class="toptitle">
+      <a class="f1" href="index.html">HOME</a>
+      <a class="f1" href="about.html">ABOUT</a>
+      <a class="f1" href="projects.html">PROJECTS</a>
+      <a class="f1" href="contact.html">CONTACT</a>
+    </p>
+  </header>
+
+  <header class="projects-hero">
+    <div class="section-title">
+      <h1 class="MyProjects">My Projects</h1>
+      <div class="underline"></div>
+    </div>
+  </header>
+
+  <!-- 圖片 -->
+  <div id="main">
+    <div data-aos="zoom-in" class="picbox">
+      <div class="imgbox">
+        <a href="./image/projects01.jpg" data-fancybox="gallery" data-caption="湊阿庫婭<br>Minato Aqua"
+          style="display:block; margin: auto; width: 150%; margin-left: -70px;">
+          <img src="./image/projects01.jpg" alt="湊阿庫婭" style="display:block; margin:auto;">
+        </a>
+      </div>
+      <p>湊阿庫婭</p>
+      <p>Minato Aqua</p>
+    </div>
+
+    <div data-aos="zoom-in" class="picbox">
+      <div class="imgbox">
+        <a href="./image/projects02.jpg" data-fancybox="gallery" data-caption="喜多郁代<br>Kita Ikuyo"
+          style="display:block; margin:auto;">
+          <img src="./image/projects02.jpg" alt="喜多郁代" style="display:block; margin:auto; margin-top: -50px;">
+        </a>
+      </div>
+      <p>喜多郁代</p>
+      <p>Kita Ikuyo</p>
+    </div>
+
+    <div data-aos="zoom-in" class="picbox">
+      <div class="imgbox">
+        <a href="./image/projects03.jpg" data-fancybox="gallery" data-caption="露西<br>LUCY"
+          style="display:block; margin:auto;">
+          <img src="./image/projects03.jpg" alt="露西" style="display:block; margin:auto; width: 150%; margin-left: -70px;">
+        </a>
+      </div>
+      <p>露西</p>
+      <p>LUCY</p>
+    </div>
+
+    <div data-aos="zoom-in" class="picbox">
+      <div class="imgbox">
+        <a href="./image/projects04.jpg" data-fancybox="gallery" data-caption="星野愛<br>Hoshino Ai"
+          style="display:block; margin:auto;">
+          <img src="./image/projects04.jpg" alt="星野愛" style="display:block; margin:auto; width: 150%; margin-left: -70px;">
+        </a>
+      </div>
+      <p>星野愛</p>
+      <p>Hoshino Ai</p>
+    </div>
+  </div>
+  <script>
+    Fancybox.bind('[data-fancybox="gallery"]', {
+      // Your custom options
+      contentClick: "iterateZoom",
+      Images: {
+        Panzoom: {
+          maxScale: 3,
+        },
+      }
+    });
+
+    AOS.init();
+
+  </script>
+
+
+
+  <footer class="footer">
+    <ul class="social-icons">
+      <li>
+        <a href="https://codepen.io/XiaoGua0377" target="_blank" class="social-icon">
+          <i class="fa-brands fa-codepen fa-xl" style="color: #ffa500;"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/XiaoGua0377?tab=repositories" target="_blank" class="social-icon">
+          <i class="fa-brands fa-github fa-xl" style="color: #ffa500;"></i>
+        </a>
+      </li>
+      <li>
+        <a href="index.html" target="_top" class="social-icon">
+          <i class="fa-solid fa-house fa-xl" style="color: #ffa500;"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://discord.com/" target="_blank" class="social-icon">
+          <i class="fa-brands fa-discord fa-xl" style="color: #ffa500;"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/xiaogua0377/" target="_blank" class="social-icon">
+          <i class="fa-brands fa-instagram fa-xl" style="color: #ffa500;"></i>
+        </a>
+      </li>
+    </ul>
+
+    <p><span class="date">© 2023 Yu-Chieh. All rights reserved.</span> </p>
+  </footer>
+</body>
+
+</html>

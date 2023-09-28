@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: antiquewhite;
+    min-height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+.f1{
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+}
+.toptitle{
+    margin-top: 1rem;
+}
+
+header img{
+    height: 3rem;
+}
+
+a {
+    color: #0F2940;
+    text-decoration: none;
+    margin: 6px;
+    font-family: 'League Gothic', sans-serif;
+    transition: 0.3s;
+    transition-duration: 0.3;
+}
+a:hover {
+    color: #E2B54B;
+    transition: 0.3s;
+    transition-duration: 0.3;
+}
+
+body{
+    margin: 0; 
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.section {
+    padding: 7.3rem;
+    min-height: calc(100vh - 18.3rem - 198px);
+    background-color: #FEF9EB;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+h1{
+    margin-bottom: 0.5rem;
+    color: #0F2940;
+}
+
+.underline{
+    margin-bottom: 4rem;
+    width: 5rem;
+    height: 0.25rem;
+    background-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+    color: grey;
+    text-align: center;
+}
+
+.p2{
+    margin-bottom: 0;
+}
+
+.footer {
+    background: #222;
+    display: grid;
+    place-items: center;
+}
+
+.social-icons {
+    display: grid;
+    list-style:  none;
+    margin-top: 2.5rem;
+    width: 20rem;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.footer .social-icons {
+    margin-bottom: 1.5rem;
+}
+
+.date{
+    margin-bottom: 1.25rem;
+    color: #294F85;
+    font-size: 1.5rem;
+}
